@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, Image, Text, ScrollView } from 'react-native'
+import { View, Image, Text, ScrollView,TextInput } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { RectButton } from 'react-native-gesture-handler'
 
@@ -35,7 +35,6 @@ const Landing = () => {
     const handleNavigationToStudyPages = () => {
         navigate('Study')
     }
-
     return (
 
         <ScrollView style={styles.scrollView} centerContent>
@@ -47,7 +46,7 @@ const Landing = () => {
                     Seja bem-vindo, {'\n'}
                     <Text style={styles.titleBold}>O que deseja fazer?</Text>
                 </Text>
-
+                
                 <View style={styles.buttonsContainer}>
                     <RectButton
                         style={[styles.button, styles.buttonPrimary]}
@@ -66,7 +65,7 @@ const Landing = () => {
                         <Text style={styles.buttonText}>Dar aulas</Text>
                     </RectButton>
                 </View>
-
+                
                 <Text style={styles.totalConnections}>
                     Total de {totalConnections} conexões já realizadas {' '}
                     <Image source={heartIcon} />

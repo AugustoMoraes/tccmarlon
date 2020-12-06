@@ -67,8 +67,39 @@ const styles = StyleSheet.create({
         maxWidth: 140,
         marginTop: 40
     },
-
-    
+    viewInput:{
+        backgroundColor: '#fff',
+        marginVertical: 5,
+        padding: 5,
+        borderRadius: 7
+    },
+    input:{
+        height: 45, 
+        fontSize: 17
+    },
+    viewBotao:{
+        backgroundColor: '#fff',
+        marginTop: 5,
+        height: 40,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 7
+    },
+    botao:{
+        fontSize: 20
+    },
+    txtBotao:{
+        fontSize: 25
+    },
+    viewFooter:{
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        marginTop: 7
+    },
+    txtBotaoFooter:{
+        color: '#fff',
+        fontSize: 17
+    }
 })
 
 export default styles

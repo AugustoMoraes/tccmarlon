@@ -1,7 +1,7 @@
 import React, { useState, FormEvent } from 'react'
 import { Link } from 'react-router-dom'
 
-import logoImg from '../../assets/images/logo.svg'
+import logoImg from '../../assets/images/logo.png'
 import purpleHeart from '../../assets/images/icons/purple-heart.svg'
 import DynamicInput from '../../components/DynamicInput'
 import './styles.css'
@@ -49,7 +49,7 @@ const Login = () => {
             <div className='login-page-logo'>
                 <div>
                     <img src={logoImg} alt='Proffy logo' />
-                    <p>Sua plataforma de estudos online.</p>
+                    <p>Sua plataforma de encontrar professores de música online.</p>
                 </div>
             </div>
 
@@ -89,7 +89,7 @@ const Login = () => {
 
                     {invalid && (
                         <div className='invalid-information'>
-                            <p>Sua e-mail ou sua senha está incorreta.</p>
+                            <p>Seu e-mail ou sua senha está incorreta.</p>
                         </div>
                     )}
 

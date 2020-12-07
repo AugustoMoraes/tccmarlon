@@ -61,7 +61,7 @@ function TeacherList() {
   return (
     <View style={styles.container}>
       <PageHeader
-        title="Proffys disponíveis"
+        title="Professores de música disponíveis"
         headerRight={(
           <BorderlessButton onPress={handleToggleFiltersVisible}>
             <Feather name='filter' size={20} color='#FFF' />
@@ -70,12 +70,12 @@ function TeacherList() {
       >
         {isFiltersVisible && (
           <View style={styles.searchForm}>
-            <Text style={styles.label}>Matéria</Text>
+            <Text style={styles.label}>Categoria musical</Text>
             <TextInput
               style={styles.input}
               value={subject}
               onChangeText={text => setSubject(text)} /*Diferente da versão Web.*/
-              placeholder="Qual a matéria?"
+              placeholder="Escolha ? Ex: canto, violino, guitarra..."
               placeholderTextColor="#c1bccc"
             />
 

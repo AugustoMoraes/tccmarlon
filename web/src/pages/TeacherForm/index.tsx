@@ -83,7 +83,7 @@ const TeacherForm = () => {
         <div id="page-teacher-form" className="container">
             <PageHeader
                 actualPage='Dar aulas'
-                title="Que incrível que você quer dar aulas."
+                title="Venha dá aulas de música."
                 description="O primeiro passo é preencher esse formulário de inscrição"
             />
 

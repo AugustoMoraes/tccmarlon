@@ -35,7 +35,7 @@ const StudyTabs = () => {
                 inactiveBackgroundColor: '#FAFAFC',
                 activeBackgroundColor: '#EBEBF5',
                 inactiveTintColor: '#C1BCCC',
-                activeTintColor: '#32264D'
+                activeTintColor: '#E33D3D'
             }}
         >
             <Screen
@@ -44,7 +44,7 @@ const StudyTabs = () => {
                 options={{
                     tabBarLabel: 'Proffys',
                     tabBarIcon: ({ color, size, focused }) => (
-                        <Ionicons name='ios-easel' size={size} color={focused ? '#8257E5' : color} />
+                        <Ionicons name='ios-easel' size={size} color={focused ? '#E33D3D' : color} />
                     )
                 }}
             />
@@ -54,7 +54,7 @@ const StudyTabs = () => {
                 options={{
                     tabBarLabel: 'Favoritos',
                     tabBarIcon: ({ color, size, focused }) => (
-                        <Ionicons name='ios-heart' size={size} color={focused ? '#8257E5' : color} />
+                        <Ionicons name='ios-heart' size={size} color={focused ? '#E33D3D' : color} />
                     )
                 }}
             />

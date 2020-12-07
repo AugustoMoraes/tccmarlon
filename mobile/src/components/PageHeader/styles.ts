@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
 
     container: {
         padding: 40,
-        backgroundColor: '#8257E5',
+        backgroundColor: '#363636',
     },
 
     topBar: {

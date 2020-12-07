@@ -17,7 +17,7 @@ const ProfileProff = () => {
     const [name, setName] = useState('')
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
-    const [whatsapp,setWhatsapp] = useState('(91) 998189662')
+    const [whatsapp,setWhatsapp] = useState('(91) 999999999')
     const [biografia, setBiografia] = useState('Currículo do professor')
     const [course, setCourse] = useState('')
     const [hourClass,setHourClass] = useState('')
@@ -104,7 +104,7 @@ const ProfileProff = () => {
                         </Text>
                         <TextInput
                             style = {styles.input}
-                            placeholder = 'seuendereço@gmail.com'
+                            placeholder = 'email@gmail.com'
                             placeholderTextColor = '#6A6180'
                             value = {email}
                             onChangeText = { (value) => {setEmail(value)}}
@@ -114,7 +114,7 @@ const ProfileProff = () => {
                         </Text>
                         <TextInput
                             style = {styles.input}
-                            placeholder = '(91) 992357600'
+                            placeholder = '(91) 999999900'
                             placeholderTextColor = '#6A6180'
                             value = {whatsapp}
                             onChangeText = { (value) => {setWhatsapp(value)}}

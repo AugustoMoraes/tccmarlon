@@ -28,7 +28,7 @@ const Favorites = () => {
 
     return (
         <View style={styles.container}>
-            <PageHeader title='Meus proffys favoritos' />
+            <PageHeader title='Meus professores de música favoritos' />
 
 
             <ScrollView

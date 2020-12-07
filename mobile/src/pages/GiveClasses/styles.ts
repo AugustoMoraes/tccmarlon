@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
 
     container: {
         flex: 1,
-        //backgroundColor: '#8257E5',
+        //backgroundColor: '#F85404',
         backgroundColor: '#ddd',
         //justifyContent: 'center',
         //padding: 40,
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     viewHeader:{
         height: '45%',
         width: '100%',
-        backgroundColor: '#8257E5',
+        backgroundColor: '#F85404',
         
     },
     content: {
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     },
     txtCadastro:{
         fontSize: 17,
-        color: '#8257E5'
+        color: '#F85404'
     },
     viewFooter:{
         justifyContent: 'center',
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     },
     okButton: {
         marginVertical: 25,
-        backgroundColor: '#04D361',
+        backgroundColor: '#363636',
         height: 58,
         alignItems: 'center',
         justifyContent: 'center',

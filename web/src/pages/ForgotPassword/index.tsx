@@ -1,7 +1,7 @@
 import React, { useState, FormEvent } from 'react'
 import { Link } from 'react-router-dom'
 
-import logoImg from '../../assets/images/logo.svg'
+import logoImg from '../../assets/images/logo.png'
 import DynamicInput from '../../components/DynamicInput'
 import backIcon from '../../assets/images/icons/back.svg'
 import './styles.css'
@@ -71,7 +71,7 @@ const ForgotPassword = () => {
             <div className='forgot-password-page-logo'>
                 <div>
                     <img src={logoImg} alt='Proffy logo' />
-                    <p>Sua plataforma de estudos online.</p>
+                    <p>Sua plataforma de encontrar professores de música online.</p>
                 </div>
             </div>
 

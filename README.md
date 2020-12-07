@@ -1,26 +1,47 @@
-# :rocket: What's Next Level Week?
+laranja 
+#F85404
 
-NLW is an online event with a lot of practical content, challenges, networking and hacks that will help you to advance to the next level.
+cinza
+#363636
 
-## :sunny: Days
+Rosa
+#F08080
 
-* Dia 1: Acelerando a sua Evolução 03/08
-* Dia 2: Olhando as oportunidades 04/08
-* Dia 3: A escolha da Stack 05/08
-* Dia 4: Até 2 Anos em 2 Meses 06/08
-* Dia 5: A milha extra 07/08
+<img src={landingImg} alt="Plataforma de estudos" className="hero-image" /> isso aqui é a imagem na web... queria mudar por um lottie no apk
 
-## :purple_heart: Technologies
+vermelho
+#E33D3D
 
-The project was developed with the following technologies:
+#Vais mudar no TeacherForm 
+Materia por categoria musical
 
-* React
-* TypeScript
-* NodeJS
-* SQLite
-* React Native
+vais trocar as materias por essa lista a baixo:
 
-## :art: Layouts
+Canto
+Guitarra
+Violão 
+Piano
+Teclado
+Saxofone
+Teoria
+Musicalização
+Cavaquinho
+Ukulele
+Contra baixo 
+Bateria 
+Percussão 
+Trombone 
+Trompete 
+Violino 
+Cello 
+Violoncelo
+Clarinete 
+Oboé 
+Fagote 
+Flauta 
+Trompa
 
-* [Web layout](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web)
-* [Mobile layout](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile)
+e tbm no apk fiz as rotas erradas... faz igual no arquivo do figma 
+
+Link
+https://www.figma.com/file/nZ7lMEBYZSMhRxfdvy6fKz/Proffy-Mobile-2.0

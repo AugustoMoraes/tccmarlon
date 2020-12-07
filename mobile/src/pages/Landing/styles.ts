@@ -3,12 +3,12 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
 
     scrollView: {
-        backgroundColor: '#8257E5'
+        backgroundColor: '#363636'
     },
 
     container: {
         flex: 1,
-        backgroundColor: '#8257E5',
+        backgroundColor: '#363636',
         justifyContent: 'center',
         padding: 40,
     },
@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
     },
 
     buttonPrimary: {
-        backgroundColor: '#9871F5',
+        backgroundColor: '#F85404',
     },
 
     buttonSecondary: {
-        backgroundColor: '#04D361',
+        backgroundColor: '#F85404',
     },
 
     buttonText: {

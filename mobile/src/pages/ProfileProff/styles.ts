@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     },
     viewHeader:{
         flexDirection: 'row',
-        backgroundColor: '#774DD6',
+        backgroundColor: '#F85404',
         justifyContent: "space-between",
         alignItems: 'center',
         height: 60,
@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
     },
 
     viewTitle:{
-        paddingVertical: 40,
-        backgroundColor: '#8257E5'
+        paddingVertical: 10,
+        backgroundColor: '#F85404'
     },
     title: {
         fontFamily: 'Poppins_600SemiBold',
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     },
     newHour:{
         fontSize: 17,
-        color: '#8257E5'
+        color: '#F85404'
     },
     txtNameProff:{
         fontSize: 20,
@@ -88,17 +88,17 @@ const styles = StyleSheet.create({
         marginBottom: 2,
         borderRadius: 7,
         justifyContent: 'center',
-        padding: 25,
-        fontSize: 20
+        padding: 10,
+        fontSize: 22
     },
     viewButton:{
         justifyContent: 'center',
         alignItems: 'center',
         marginVertical: 15,
-        backgroundColor: '#04D361',
-        height: 70,
+        backgroundColor: '#363636',
+        height: 50,
         borderRadius: 10,
-        marginHorizontal: 7
+        marginHorizontal: 6
     },
     txtButton:{
         fontSize: 25,

@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
 
     name: {
         fontFamily: 'Archivo_700Bold',
-        color: '#32264D',
+        color: '#F85404',
         fontSize: 20
     },
 
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
 
     priceValue: {
         fontFamily: 'Archivo_700Bold',
-        color: '#8257E5',
+        color: '#363636',
         fontSize: 16
     },
 
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     },
 
     favoriteButton: {
-        backgroundColor: '#8257E5',
+        backgroundColor: '#363636',
         width: 56,
         height: 56,
         borderRadius: 8,

@@ -92,7 +92,7 @@ const TeacherList = () => {
 
     return (
         <div id="page-teacher-list" className="container" onSubmit={searchTeachers}>
-            <PageHeader actualPage='Estudar' title="Esses são os proffys disponíveis.">
+            <PageHeader actualPage='Estudar' title="Aqui estão os professores de música disponíveis.">
 
                 <form id="search-teachers">
 

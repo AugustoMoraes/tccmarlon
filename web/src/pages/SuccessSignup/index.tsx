@@ -14,7 +14,7 @@ const SuccessSignup = () => {
                 </div>
                 <h1>Cadastro concluído</h1>
                 <p>
-                    Agora você faz parte da plataforma da Proffy.
+                    Agora você faz parte da plataforma Ei músico!.
                     <br />
                     Tenha uma ótima experiência.
                 </p>

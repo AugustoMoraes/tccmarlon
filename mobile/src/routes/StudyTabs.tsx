@@ -35,16 +35,16 @@ const StudyTabs = () => {
                 inactiveBackgroundColor: '#FAFAFC',
                 activeBackgroundColor: '#EBEBF5',
                 inactiveTintColor: '#C1BCCC',
-                activeTintColor: '#E33D3D'
+                activeTintColor: '#F85404'
             }}
         >
             <Screen
                 name='TeacherList'
                 component={TeacherList}
                 options={{
-                    tabBarLabel: 'Proffys',
+                    tabBarLabel: 'Professores',
                     tabBarIcon: ({ color, size, focused }) => (
-                        <Ionicons name='ios-easel' size={size} color={focused ? '#E33D3D' : color} />
+                        <Ionicons name='ios-easel' size={size} color={focused ? '#F85404' : color} />
                     )
                 }}
             />
@@ -54,7 +54,7 @@ const StudyTabs = () => {
                 options={{
                     tabBarLabel: 'Favoritos',
                     tabBarIcon: ({ color, size, focused }) => (
-                        <Ionicons name='ios-heart' size={size} color={focused ? '#E33D3D' : color} />
+                        <Ionicons name='ios-heart' size={size} color={focused ? '#F85404' : color} />
                     )
                 }}
             />

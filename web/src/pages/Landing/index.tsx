@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import logoImg from '../../assets/images/logo.png'
-import landingImg from '../../assets/images/landing.svg'
+import landingImg from '../../assets/images/logo1.png'
 import studyIcon from '../../assets/images/icons/study.svg'
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg'
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg'
@@ -51,7 +51,6 @@ const Lading = () => {
                     
                 </div>
             
-                <img src={landingImg} alt="Plataforma de estudos" className="hero-image" />
                 
 
                 <div className="buttons-container">

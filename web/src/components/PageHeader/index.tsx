@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useHistory } from 'react-router-dom'
 
-import proffyLogo from '../../assets/images/logo.svg'
+import favicon1 from '../../assets/images/favicon1.png'
 import backIcon from '../../assets/images/icons/back.svg'
 import './styles.css'
 
@@ -27,7 +27,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, description, actualPage,
                 </div>
 
                 <Link to='/' className='header-proffy-logo'>
-                    <img src={proffyLogo} alt="Logo" />
+                    <img src={favicon1} alt="Logo" />
                 </Link>
             </div>
 

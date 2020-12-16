@@ -75,7 +75,7 @@ function TeacherList() {
               style={styles.input}
               value={subject}
               onChangeText={text => setSubject(text)} /*Diferente da versão Web.*/
-              placeholder="Escolha ? Ex: canto, violino, guitarra..."
+              placeholder="Ex: canto, violino, guitarra..."
               placeholderTextColor="#c1bccc"
             />
 
@@ -86,7 +86,7 @@ function TeacherList() {
                   style={styles.input}
                   value={week_day}
                   onChangeText={text => setWeekDay(text)} /*Diferente da versão Web.*/
-                  placeholder="Qual o dia?"
+                  placeholder="Ex: Domingo = 0"
                   placeholderTextColor="#c1bccc"
                 />
               </View>
@@ -97,7 +97,7 @@ function TeacherList() {
                   style={styles.input}
                   value={time}
                   onChangeText={text => setTime(text)} /*Diferente da versão Web.*/
-                  placeholder="Qual horário?"
+                  placeholder="Ex = 08:00"
                   placeholderTextColor="#c1bccc"
                 />
               </View>

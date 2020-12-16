@@ -96,20 +96,34 @@ const TeacherList = () => {
 
                 <form id="search-teachers">
 
-                    <Select
-                        label="Matéria"
+                <Select
+                        label="Categoria musical"
                         name="subject"
                         value={subject}
                         onChange={event => setSubject(event.target.value)}
                         options={[
-                            { value: 'Artes', label: 'Artes' },
-                            { value: 'Biologia', label: 'Biologia' },
-                            { value: 'História', label: 'História' },
-                            { value: 'Química', label: 'Química' },
-                            { value: 'Física', label: 'Física' },
-                            { value: 'Matemática', label: 'Matemática' },
-                            { value: 'Inglês', label: 'Inglês' },
-                            { value: 'Português', label: 'Português' }
+                            { value: 'Canto', label: 'Canto' },
+                            { value: 'Guitarra', label: 'Guitarra' },
+                            { value: 'Violão', label: 'Violão' },
+                            { value: 'Piano', label: 'Piano' },
+                            { value: 'Teclado', label: 'Teclado' },
+                            { value: 'Saxofone', label: 'Saxofone' },
+                            { value: 'Teoria', label: 'Teoria' },
+                            { value: 'Musicalização', label: 'Musicalização' },
+                            { value: 'Cavaquinho', label: 'Cavaquinho' },
+                            { value: 'Ukulele', label: 'Ukulele' },
+                            { value: 'Contrabaixo', label: 'Contrabaixo' },
+                            { value: 'Bateria', label: 'Bateria' },
+                            { value: 'Percussão', label: 'Percussão' },
+                            { value: 'Trombone', label: 'Trombone' },
+                            { value: 'Trompete', label: 'Trompete' },
+                            { value: 'Violino', label: 'Violino' },
+                            { value: 'Violoncelo', label: 'Violoncelo' },
+                            { value: 'Clarinete', label: 'Clarinete' },
+                            { value: 'Oboé', label: 'Oboé' },
+                            { value: 'Fagote', label: 'Fagote' },
+                            { value: 'Flauta', label: 'Flauta' },
+                            { value: 'Trompa', label: 'Trompa' },
                         ]}
                     />
                     <Select

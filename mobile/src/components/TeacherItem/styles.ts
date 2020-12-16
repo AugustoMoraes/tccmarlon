@@ -30,13 +30,13 @@ const styles = StyleSheet.create({
 
     name: {
         fontFamily: 'Archivo_700Bold',
-        color: '#F85404',
+        color: '#363636',
         fontSize: 20
     },
 
     subject: {
         fontFamily: 'Poppins_400Regular',
-        color: '#6A6180',
+        color: '#363636',
         fontSize: 12,
         marginTop: 4
     },
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         fontFamily: 'Poppins_400Regular',
         fontSize: 14,
         lineHeight: 26,
-        color: '#6A6180'
+        color: '#363636'
     },
 
     footer: {
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
 
     price: {
         fontFamily: 'Poppins_400Regular',
-        color: '#6A6180',
+        color: '#363636',
         fontSize: 14
     },
 
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     },
 
     favoriteButton: {
-        backgroundColor: '#363636',
+        backgroundColor: '#F85404',
         width: 56,
         height: 56,
         borderRadius: 8,

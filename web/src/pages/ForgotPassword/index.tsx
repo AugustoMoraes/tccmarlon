@@ -10,29 +10,38 @@ import './styles.css'
 const ForgotPassword = () => {
 
     const [email, setEmail] = useState('')
-    const [invalid, setInvalid] = useState(false)
-
+    const [invalid, setInvalid] = useState<any>(null)
 
     const areInputsValid = () => {
-        if (!email.trim())
-            return false
-
+        
         const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-        const isEmailValid = regex.test(String(email).toLowerCase())
-
-        if (!isEmailValid)
-            return false
+    
+        if (email.length === 0 ){
+            setInvalid('Preencha um email.');
+            return false 
+        }
+        if(!regex.test(email)){
+            setInvalid('Preencha um email válido.');
+            return false 
+        }
+        setInvalid(null)
         return true
     }
 
 
     const handleFormSubmit = async (event: FormEvent) => {
         event.preventDefault()
-
-        if (!areInputsValid()) {
-            setInvalid(true)
+        if(!areInputsValid()){
             return
         }
+       // Axios
+       // utilize o email para fazer a requisição
+        // se o email não existir, exiba um erro na tela.
+       // depois de finalizar a requisição, envie o usuário para a tela inicial  OU TELA DE LOGIN
+     }
+    const handleChange = (e:any)=>{
+        if(invalid){areInputsValid()}
+        setEmail(e.target.value)
     }
 
 
@@ -46,7 +55,7 @@ const ForgotPassword = () => {
 
                 <form className='forgot-password-form' onSubmit={handleFormSubmit}>
                     <div className='main-forgot-password'>
-                        <h2>Eita, esqueceu sua senha?</h2>
+                        <h2>Esqueceu sua senha?</h2>
                         <p>Não esquenta, vamos dar um jeito nisso.</p>
                     </div>
 
@@ -54,12 +63,13 @@ const ForgotPassword = () => {
                         type='text'
                         label='E-mail'
                         value={email}
-                        onChange={event => setEmail(event.target.value)}
+                        onChange={handleChange}
+                        onBlur={()=>areInputsValid()}
                     />
 
                     {invalid && (
                         <div className='invalid-information'>
-                            <p>Insira um e-mail válido.</p>
+                            <p>{invalid}</p>
                         </div>
                     )}
 
@@ -70,7 +80,7 @@ const ForgotPassword = () => {
 
             <div className='forgot-password-page-logo'>
                 <div>
-                    <img src={logoImg} alt='Proffy logo' />
+                    <img src={logoImg} alt='' />
                     <p>Sua plataforma de encontrar professores de música online.</p>
                 </div>
             </div>
